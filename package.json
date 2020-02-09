@@ -1,0 +1,25 @@
+{
+  "name": "javascript-algorithms-data-structures",
+  "version": "1.0.0",
+  "description": "The goal that the repository is learning algorithms and data structure in Javascript. Learn about algorithms in data structure is very important. The motivation is the algorithms and data structure enable you the resolve many commons problems efficiently.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cjvaz/javascript-algorithms-data-structures.git"
+  },
+  "keywords": [],
+  "author": "Carlos Vaz <carlosjvaz@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cjvaz/javascript-algorithms-data-structures/issues"
+  },
+  "homepage": "https://github.com/cjvaz/javascript-algorithms-data-structures#readme",
+  "scripts": {
+    "test": "mocha test/**/*spec.js"
+  },
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^7.0.1"
+  },
+  "devDependencies": {}
+}
