@@ -15,7 +15,8 @@
   },
   "homepage": "https://github.com/cjvaz/javascript-algorithms-data-structures#readme",
   "scripts": {
-    "test": "mocha test/**/*spec.js"
+    "test": "mocha test/**/*spec.js",
+    "xtest": "mocha test/data-structures/queue.spec.js"
   },
   "dependencies": {
     "chai": "^4.2.0",
