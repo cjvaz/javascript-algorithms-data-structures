@@ -1,5 +1,3 @@
-"use strict";
-
 class StackArray {
   
   constructor() {

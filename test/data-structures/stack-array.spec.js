@@ -1,5 +1,3 @@
-"use strict";
-
 const chai = require('chai')
 const expect = chai.expect
 const StackArray = require('../../src/data-structures/stack-array');
