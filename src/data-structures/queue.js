@@ -35,6 +35,12 @@ class Queue {
   size() {
     return this.count - this.lowestCount;
   }
+
+  clear() {
+    this.count = 0;
+    this.lowestCount = 0;
+    this.items = {};    
+  }
 }
 
 module.exports = Queue;
