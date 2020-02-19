@@ -1,4 +1,4 @@
-export class Node {
+class Node {
   constructor(key) {
     this.key = key;
     this.left = undefined;
@@ -8,3 +8,5 @@ export class Node {
     return `${this.key}`;
   }
 }
+
+module.exports = Node;
