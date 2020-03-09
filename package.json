@@ -16,7 +16,7 @@
   "homepage": "https://github.com/cjvaz/javascript-algorithms-data-structures#readme",
   "scripts": {
     "test": "mocha test/**/*spec.js",
-    "xtest": "mocha test/data-structures/binary-search-tree.spec.js"
+    "xtest": "mocha test/data-structures/heap.spec.js"
   },
   "dependencies": {
     "chai": "^4.2.0",
