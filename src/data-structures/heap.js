@@ -9,11 +9,11 @@ class MinHeap {
     this.heap = [];
   }
 
-  geLeftIndex(index) {
+  getLeftIndex(index) {
     return 2 * index + 1;
   }
 
-  geRightIndex(index) {
+  getRightIndex(index) {
     return 2 * index + 2;
   }
 
@@ -30,6 +30,10 @@ class MinHeap {
 
   isEmpty() {
     return this.size() <= 0;
+  }
+
+  findMinimum() {
+    return this.heap[0];
   }
 
   insert(value) {
@@ -80,6 +84,17 @@ class MinHeap {
     return removedValue;
   }
 
+  heapify(array) {
+    if (array) {
+      this.heap = array;
+    }
+    const maxIndex = Math.floor(this.size() / 2) - 1;
+    for (let i = 0; i <= maxIndex; i++) {
+      this.siftDown(i);
+    }
+    return this.heap;
+  }
+    
   getAsArray() {
     return this.heap;
   }
