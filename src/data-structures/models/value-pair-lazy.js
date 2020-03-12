@@ -1,6 +1,6 @@
-import { ValuePair } from './value-pair';
+const ValuePair = require('./value-pair');
 
-export class ValuePairLazy extends ValuePair {
+class ValuePairLazy extends ValuePair {
   constructor(key, value, isDeleted = false) {
     super(key, value);
     this.key = key;
@@ -8,3 +8,5 @@ export class ValuePairLazy extends ValuePair {
     this.isDeleted = isDeleted;
   }
 }
+
+module.exports = ValuePairLazy;

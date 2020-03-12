@@ -1,4 +1,4 @@
-export class ValuePair {
+class ValuePair {
   constructor(key, value) {
     this.key = key;
     this.value = value;
@@ -7,3 +7,5 @@ export class ValuePair {
     return `[#${this.key}: ${this.value}]`;
   }
 }
+
+module.exports = ValuePair;
